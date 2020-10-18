@@ -68,7 +68,7 @@ class DazhongDownloaderMiddleware:
         result = pattern.match(request.url)
         if result:
             request.headers['Referer'] = 'https://www.dianping.com/shanghai'
-            request.headers["cookie"] = 'fspop=test; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; _lxsdk_cuid=175341d8405c8-014aa709cfa3f6-c781f38-144000-175341d8406c8; _lxsdk=175341d8405c8-014aa709cfa3f6-c781f38-144000-175341d8406c8; Hm_lvt_602b80cf8079ae6591966cc70a3940e7=1602897152; _hc.v=3f5ce10f-652c-6fd0-4e14-453b05d98b44.1602897152; s_ViewType=10; cy=1; cye=shanghai; dplet=aa6a6a8e0516745d172a982b99a45ba2; dper=d557e9d6b18eb101ec3037c04776371caf3d9e5a7c3be77cf5ef3b084f80aa9ffade57bb9cc5da027201492884db4d14a9be88593fa3435b74e7e2e111980ddc3e82bd697b61f752e53d04b8c8b968ada80da8fae03c8ba1cc7810b4d607b845; ll=7fd06e815b796be3df069dec7836c3df; ua=18779343660; ctu=74ce666787acc02145469f8dfe25145c70f7b3285dfc3eea39b05a484008e189; Hm_lpvt_602b80cf8079ae6591966cc70a3940e7=1602901870; _lxsdk_s=175346512b5-b1c-bb2-250%7C%7C29'
+            request.headers["cookie"] = '......'
         return None
 
     def process_response(self, request, response, spider):
